@@ -1,0 +1,26 @@
+GET http://localhost:3500/get-user
+
+
+###
+
+GET http://localhost:3500/get-user/100
+
+###
+
+POST http://localhost:3500/create-user
+Content-Type: application/json
+
+{
+    "id":100,
+    "name":"sai",
+    "age":16
+}
+
+###
+
+PUT http://localhost:3500/update-user
+
+###
+
+DELETE http://localhost:3500/delete-user
+
